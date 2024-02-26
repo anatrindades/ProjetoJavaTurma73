@@ -6,10 +6,8 @@ public class SomaSalario {
 
 	public static void main(String[] args) {
 		
-		//Variaveis
-		float salario;
-		float abono;
-		float novoSalario;
+		//Variáveis
+		float salario, abono, novoSalario;
 		
 		//Entrada de Dados
 		Scanner leia = new Scanner(System.in);
@@ -24,7 +22,6 @@ public class SomaSalario {
 		
 		System.out.println("O novo salário é: " + novoSalario);
 		
-
 	}
 
 }

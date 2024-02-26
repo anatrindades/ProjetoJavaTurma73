@@ -6,7 +6,7 @@ public class EntradaSaida {
 	
 	public static void main(String[] args) {
 		
-		//Variaves
+		//Variáveis
 		String nome = "Giovanna";
 		int idade;
 				

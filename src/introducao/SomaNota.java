@@ -6,12 +6,8 @@ public class SomaNota {
 
 	public static void main(String[] args) {
 		
-		//Variaveis
-		float nota1;
-		float nota2;
-		float nota3;
-		float nota4;
-		float MediaFinal;
+		//Variáveis
+		float nota1, nota2, nota3, nota4, mediaFinal;
 		
 		//Entrada de Dados
 		Scanner leia = new Scanner(System.in);
@@ -28,11 +24,10 @@ public class SomaNota {
 		nota4 = leia.nextFloat();
 
 		//Soma de notas e divisão das mesmas para Média Final
-		MediaFinal = (nota1 + nota2 + nota3 + nota4) / 4;
+		mediaFinal = (nota1 + nota2 + nota3 + nota4) / 4;
 		
-		System.out.printf("Media final: %.1f ", MediaFinal);
-				
-				
+		System.out.printf("Media final: ", mediaFinal);
+								
 	}
 
 }
