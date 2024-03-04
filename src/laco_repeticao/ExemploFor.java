@@ -8,7 +8,8 @@ public class ExemploFor {
 		
 		String nome;
 		int contador;
-        Scanner leia = new Scanner(System.in);
+        
+		Scanner leia = new Scanner(System.in);
         
         // contador++ => contador = 0 + 1
         

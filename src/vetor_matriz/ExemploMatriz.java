@@ -22,6 +22,7 @@ public class ExemploMatriz {
 				
 				System.out.println("Numeros [" + linha + "][" + coluna + "]" + numeros[linha][coluna]);
 			}
+			
 		}
 	
 	}

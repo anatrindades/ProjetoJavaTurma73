@@ -25,9 +25,10 @@ public class ExemploVetor {
 		
 		// Lista os nomes
 		for(indice = 0; indice < cachorros.length; indice++) {
-			System.out.println("cachorro [" + indice + "] " + cachorros[indice]);
+			System.out.println("cachorro [" + indice + "] " + cachorros[indice]);			
 		}
 		
+		leia.close();
 	}
 	
 }
