@@ -30,39 +30,41 @@ public class CollectionQueue {
             System.out.print("\nEntre com a opção desejada: ");
             opcao = leia.nextInt();
             
-        // Case Switch e inseção de dados
+         // Case Switch e inseção de dados
             
-            switch (opcao) {
-            case 1:
-                System.out.print("Digite o nome do cliente: ");
-                String nomeCliente = leia.next();
-                filaClientes.add(nomeCliente);
-                System.out.println("\nFila: " + nomeCliente + "\nCliente Adicionado!");
-                break;
-            case 2:
-                System.out.println("Clientes na fila:");
-                for (String cliente : filaClientes) {
-                    System.out.println(cliente);
-                }
-                break;
-            case 3:
-                if (filaClientes.isEmpty()) {
-                    System.out.println("A fila está vazia!");
-                } else {
-                    String clienteChamado = filaClientes.poll();
-                    System.out.println("Cliente chamado: " + clienteChamado);
-                }
-                break;
-            case 0:
-                System.out.println("Programa finalizado.");
-                break;
-            default:
-                System.out.println("Opção inválida. Tente novamente.");
-        }
+         switch (opcao) {
+         
+         case 1:
+         System.out.print("Digite o nome do cliente: ");
+         String nomeCliente = leia.next();
+         filaClientes.add(nomeCliente);
+         System.out.println("\nFila: " + nomeCliente + "\nCliente Adicionado!");
+         break;
+         
+         case 2:
+         System.out.println("Clientes na fila:");
+         for (String cliente : filaClientes) {
+         System.out.println(cliente); }
+         break;
+         
+         case 3:
+         if (filaClientes.isEmpty()) {
+         System.out.println("A fila está vazia!"); } 
+         else {
+         String clienteChamado = filaClientes.poll();
+         System.out.println("Cliente chamado: " + clienteChamado); }
+         break;
+            
+         case 0:
+         System.out.println("Programa finalizado.");
+         break;
+         default:
+         System.out.println("Opção inválida. Tente novamente."); }
         
-        } while (opcao != 0);
+         } while (opcao != 0);
 
-        leia.close();
+         leia.close();
+         
 	}
 
 }
