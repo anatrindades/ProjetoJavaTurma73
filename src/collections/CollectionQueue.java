@@ -8,10 +8,17 @@ public class CollectionQueue {
 
 	public static void main(String[] args) {
 		
+		// Adiciona clientes ao final da fila e remove o próximo
 		Queue <String> filaClientes = new LinkedList<>();
-        Scanner leia = new Scanner(System.in);
-        int opcao;
-
+        
+		// Entrada de Dados
+		
+		Scanner leia = new Scanner(System.in);
+        
+		// Variaveis
+		int opcao;
+		
+		// Menu
         do {
             System.out.println("\nMenu:");
             System.out.println("\n*****************************");
@@ -22,6 +29,8 @@ public class CollectionQueue {
             System.out.println("*****************************");
             System.out.print("\nEntre com a opção desejada: ");
             opcao = leia.nextInt();
+            
+        // Case Switch e inseção de dados
             
             switch (opcao) {
             case 1:
